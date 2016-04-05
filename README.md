@@ -73,6 +73,11 @@ Linux: [![Circle CI](https://circleci.com/gh/conda-forge/glances-feedstock.svg?s
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/glances-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/glances-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/glances-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/glances-feedstock/branch/master)
 
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/glances/badges/version.svg)](https://anaconda.org/conda-forge/glances)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/glances/badges/downloads.svg)](https://anaconda.org/conda-forge/glances)
+
 
 Updating glances-feedstock
 ==========================
