@@ -6,7 +6,7 @@ package:
 
 source:
   fn: Glances-{{ version }}.tar.gz
-  url: https://pypi.python.org/packages/source/G/Glances/Glances-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/G/Glances/Glances-{{ version }}.tar.gz
   md5: 576e1cb937c1d1f384edaf20e4e33d98
 
 build:
