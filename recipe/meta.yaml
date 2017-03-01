@@ -35,6 +35,7 @@ about:
   home: https://github.com/nicolargo/glances
   license: LGPL 3
   license_family: LGPL
+  license_file: COPYING
   summary: 'A cross-platform curses-based monitoring tool'
 
 extra:
