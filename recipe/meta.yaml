@@ -1,4 +1,4 @@
-{% set version = "2.6.2" %}
+{% set version = "2.8.2" %}
 
 package:
   name: glances
@@ -7,19 +7,18 @@ package:
 source:
   fn: Glances-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/G/Glances/Glances-{{ version }}.tar.gz
-  sha256: 0024461fade788e9b7411720fca7835e2971d0f41f240e396a53d975e1d5640d
+  sha256: 6095dcdf0b7a6b6819cc647ee9733ddce309c0745107258850d601109e3411d0
 
 build:
   number: 0
+  script: python setup.py install --single-version-externally-managed --record=record.txt
   entry_points:
     - glances=glances:main
-  script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
   build:
     - python
     - setuptools
-    - psutil >=2.0.0
 
   run:
     - python
@@ -35,6 +34,8 @@ test:
 about:
   home: https://github.com/nicolargo/glances
   license: LGPL 3
+  license_family: LGPL
+  license_file: COPYING
   summary: 'A cross-platform curses-based monitoring tool'
 
 extra:
