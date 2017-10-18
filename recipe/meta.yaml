@@ -23,6 +23,7 @@ requirements:
 
   run:
     - python
+    - bottle
     - psutil >=2.0.0
 
 test:
