@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About glances
 =============
 
@@ -18,8 +14,17 @@ Summary: A cross-platform curses-based monitoring tool
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/glances-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/glances-feedstock)
+
+<table><tr>
+    
+    <td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5143&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/glances-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
