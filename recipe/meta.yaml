@@ -1,4 +1,4 @@
-{% set version = "3.1.1" %}
+{% set version = "3.1.4" %}
 
 package:
   name: glances
@@ -7,12 +7,12 @@ package:
 source:
   fn: Glances-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/G/Glances/Glances-{{ version }}.tar.gz
-  sha256: 2856a8519d08051ab65d118208226e60971453f6365712c3f75347acff7b411e
+  sha256: 98de0155649a7d847b67ef6f06875c5df54edfed30e2766fe743a5bbd73b8435
 
 build:
-  number: 1
+  number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - glances = glances:main
 
@@ -38,7 +38,7 @@ about:
   license: LGPL 3
   license_family: LGPL
   license_file: COPYING
-  summary: 'A cross-platform curses-based monitoring tool'
+  summary: A cross-platform curses-based monitoring tool
 
 extra:
   recipe-maintainers:
