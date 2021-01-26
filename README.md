@@ -3,13 +3,11 @@ About glances
 
 Home: https://github.com/nicolargo/glances
 
-Package license: LGPL 3
+Package license: LGPL-3.0-or-later
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/glances-feedstock/blob/master/LICENSE.txt)
 
 Summary: A cross-platform curses-based monitoring tool
-
-
 
 Current build status
 ====================
